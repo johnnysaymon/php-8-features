@@ -1,0 +1,13 @@
+version: '3'
+services:
+  php:
+    image: php:8.0.0RC3-cli
+    volumes:
+      - .:/project
+    working_dir: /project
+
+  composer:
+    image: composer
+    volumes:
+      - .:/project
+    working_dir: /project

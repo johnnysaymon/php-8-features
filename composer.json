@@ -1,0 +1,19 @@
+{
+    "name": "johnnysaymon/php-8-tests",
+    "description": "Test PHP 8",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johnny Saymon",
+            "email": "saymon@ciebit.com",
+            "homepage": "https://saymon.ciebit.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "source/"
+        }
+    }
+}
